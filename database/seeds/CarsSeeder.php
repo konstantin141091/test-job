@@ -20,7 +20,7 @@ class CarsSeeder extends Seeder
 
         for ($i = 0; $i < 20; $i++) {
             $data[] = [
-                'name' => 'марка '.$i,
+                'name' => 'M '.$i,
                 'number' => rand(100, 999),
                 'year' => rand(1991, 2021),
                 'status' => 'free',
